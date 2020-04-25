@@ -48,4 +48,12 @@ Run e2e test to check it works from end to end
 $ npm run e2e
 ```
 
+## Known Issues
+
+If you try to run the backend projects like going to the root folder of the project and try to use the maven
+wrapper, when you run ```mvwn spring-boot:run -f pom.xml``` the second time you will get an exception because the
+9001 port of the jmxRemote is already allocated, that is why I strongly recommend to run the project of the backend
+using the IDE features like right click over the spring main class since Intellij IDEA knows how to circumvent this
+automatically
+
 
