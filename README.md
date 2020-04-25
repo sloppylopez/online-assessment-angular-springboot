@@ -19,4 +19,33 @@ I decided to separate it in 3 projects to have a 'third party dummy backend' tha
 desired business logic which will fetch that data and apply the transformations to return a json that will be consumed by the Angular Spa application.
 This implies the front-end end logic is decoupled from the back-end business logic.
 
+## Run the project as a whole
+
+```
+$ git clone https://github.com/sloppylopez/online-assessment-angular-springboot.git
+```
+
+## Backend
+
+Start feignclient and and springboot_server from your IDE
+
+## Frontend
+
+```
+$ cd spa-client && npm i
+```
+In terminal 1 (this starts the angular app listening to port 4200) 
+```
+$ npm start
+```
+
+In terminal 2 (this starts the middleware listening to port 3000, middleware will try to fetch data from feignclient which listens at port 8081) 
+```
+$ npm run start:api
+```
+Run e2e test to check it works from end to end
+```
+$ npm run e2e
+```
+
 
