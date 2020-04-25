@@ -19,7 +19,7 @@ public class TransactionsReportController {
 
     @GetMapping(value="/report", produces= MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Report> getReport() {
-        return transactionsService.getFailedRecords()
+        return transactionsService.getFailedRecordsReport()
                 .map(result -> new ResponseEntity<>(result, HttpStatus.OK))
                 .orElse(new ResponseEntity<>(HttpStatus.NO_CONTENT));
     }

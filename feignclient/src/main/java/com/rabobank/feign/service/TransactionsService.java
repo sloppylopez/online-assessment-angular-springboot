@@ -6,6 +6,6 @@ import com.rabobank.feign.model.Report;
 import java.util.Optional;
 
 public interface TransactionsService {
-    Optional<Report> getFailedRecords();
+    Optional<Report> getFailedRecordsReport();
     void setCustomFeignClient(final CustomFeignClient customFeignClient);
 }

@@ -24,7 +24,7 @@ public class TransactionsServiceImp implements TransactionsService {
     }
 
     @Override
-    public Optional<Report> getFailedRecords() {
+    public Optional<Report> getFailedRecordsReport() {
         final Report report = new Report();
         try {
             final List<ReportEntry> entries = customFeignClient.getRecords().getEntries().stream()

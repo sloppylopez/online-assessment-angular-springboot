@@ -47,7 +47,7 @@ class FeignClientApplicationTest {
 
     @Test
     void shouldGetReportWithUniqueFailedTransactionRecords() {
-        final Report report = transactionsService.getFailedRecords().orElse(null);
+        final Report report = transactionsService.getFailedRecordsReport().orElse(null);
         assertThat(Objects.requireNonNull(report).getEntries()).hasSize(4);
         for (int i = 0; i < mockedReport.getEntries().size(); i++) {
             assertThat(report.getEntries().get(i))
