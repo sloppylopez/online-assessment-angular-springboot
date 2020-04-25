@@ -18,15 +18,24 @@
 </div>
 
 <div class="content" role="main">
-  <div>
-    <ul *ngFor="let entries of report | async;">
-      <li *ngFor="let entry of entries;">
-        {{entry.reference}}
-        {{entry.description}}
-        {{entry.startBalance + entry.mutation + ' = ' + entry.endBalance}}
-      </li>
-    </ul>
-  </div>
+  <table *ngFor="let entries of report | async;">
+    <caption id="cap">{{caption}}</caption>
+    <thead>
+    <tr>
+      <th id="referenceHeader" scope="col">Reference</th>
+      <th id="descriptionHeader" scope="col">Description</th>
+      <th id="errorHeader" scope="col">Error</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let entry of entries; index as i">
+      <td id="reference{{i}}">{{entry.reference}}</td>
+      <td id="description{{i}}">{{entry.description}}</td>
+      <td id="error{{i}}">{{entry.startBalance + entry.mutation + ' != ' + entry.endBalance}}</td>
+    </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
