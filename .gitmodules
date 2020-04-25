@@ -1,0 +1,14 @@
+[submodule "feignclient"]
+	path = feignclient
+	url = https://github.com/sloppylopez/feignclient
+	branch = master
+
+[submodule "spa-client"]
+	path = spa-client
+	url = https://github.com/sloppylopez/spa-client
+	branch = master
+
+[submodule "springboot_server"]
+	path = springboot_server
+	url = https://github.com/sloppylopez/springboot_server
+	branch = master

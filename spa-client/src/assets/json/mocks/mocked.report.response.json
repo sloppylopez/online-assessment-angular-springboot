@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "reference": "164702",
+      "description": "Flowers for Rik Dekker",
+      "mutation": "+5.99",
+      "endBalance": "87.88",
+      "startBalance": "81.89"
+    },
+    {
+      "reference": "193141",
+      "description": "Clothes from Daniël Theuß",
+      "mutation": "+44.41",
+      "endBalance": "102.31",
+      "startBalance": "57.9"
+    },
+    {
+      "reference": "175636",
+      "description": "Tickets for Vincent de Vries",
+      "mutation": "-10.82",
+      "endBalance": "58.71",
+      "startBalance": "69.53"
+    },
+    {
+      "reference": "114812",
+      "description": "Tickets from Rik King",
+      "mutation": "+2.59",
+      "endBalance": "8E+1",
+      "startBalance": "77.41"
+    },
+    {
+      "reference": "116249",
+      "description": "Candy for Erik Dekker",
+      "mutation": "-37.63",
+      "endBalance": "46.74",
+      "startBalance": "84.37"
+    },
+    {
+      "reference": "198835",
+      "description": "Flowers for Jan Theuß",
+      "mutation": "+15.16",
+      "endBalance": "118.88",
+      "startBalance": "103.72"
+    }
+  ]
+}

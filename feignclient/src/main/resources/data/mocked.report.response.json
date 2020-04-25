@@ -1,0 +1,32 @@
+{
+  "entries": [
+    {
+      "reference": "189177",
+      "description": "Subscription for Erik Dekker",
+      "mutation": "-939",
+      "endBalance": "6368",
+      "startBalance": "5429"
+    },
+    {
+      "reference": "148480",
+      "description": "Flowers for Richard Bakker",
+      "mutation": "-0.3",
+      "endBalance": "9.8",
+      "startBalance": "10.1"
+    },
+    {
+      "reference": "119225",
+      "description": "Candy for Willem Theuß",
+      "mutation": "-48.14",
+      "endBalance": "5.56",
+      "startBalance": "53.7"
+    },
+    {
+      "reference": "163215",
+      "description": "Subscription for Erik Theuß",
+      "mutation": "+1000",
+      "endBalance": "4981",
+      "startBalance": "3980"
+    }
+  ]
+}
