@@ -3,14 +3,14 @@
 ## Architecture of the solution proposed
 
 [spa-client](https://github.com/sloppylopez/online-assessment-angular-springboot/tree/master/spa-client) This project was generated with [Angular CLI](https://github.com/sloppylopez/online-assessment-angular-springboot/tree/master/angular-cli) version 9.1.3.
-it consumes a json response from [spring_boot-feign-client](https://github.com/sloppylopez/online-assessment-angular-springboot/tree/master/feignclient) that has already validated records are unique and are not correctly
+it consumes a json response from [feignclient](https://github.com/sloppylopez/online-assessment-angular-springboot/tree/master/feignclient) that has already validated records are unique and are not correctly
 added
 
-[spring_boot-feign-client](https://github.com/sloppylopez/online-assessment-angular-springboot/tree/master/feignclient) This project was generated with [Spring Boot Inititializr](https://start.spring.io/), it consumes
-a xml response from [spring_boot-server](https://github.com/sloppylopez/online-assessment-angular-springboot/tree/master/springboot_server) and ensures all records are unique and are not well added to return a json
+[feignclient](https://github.com/sloppylopez/online-assessment-angular-springboot/tree/master/feignclient) This project was generated with [Spring Boot Inititializr](https://start.spring.io/), it consumes
+a xml response from [springboot_server](https://github.com/sloppylopez/online-assessment-angular-springboot/tree/master/springboot_server) and ensures all records are unique and are not well added to return a json
 response with the results
 
-[spring_boot-server](https://github.com/sloppylopez/online-assessment-angular-springboot/tree/master/springboot_server) This project was generated with [Spring Boot Inititializr](https://start.spring.io/), it returns
+[springboot_server](https://github.com/sloppylopez/online-assessment-angular-springboot/tree/master/springboot_server) This project was generated with [Spring Boot Inititializr](https://start.spring.io/), it returns
 a dummy response based on this input data [input data](https://github.com/sloppylopez/springboot_server/blob/master/src/main/resources/data/records.xml)
 
 ## Author Observations
